@@ -1,20 +1,20 @@
 body {
   background-image: url("../images/index.jpg");
   background-color: orange;
-  color:#caa151;
+  color:#1c1100;
   font-family: "Josefin Sans", sans-serif;
   margin: 2px;
   padding: 2px;
 }
 h1, h2, h3 {
   font-family: "Berkshire Swash", sans-serif;
-  color:#caa151;
-  text-shadow: 3px 3px 3px #510321;
+  color:#f5c271;
+  text-shadow: 4px 4px 4px #510321;
   font-style:oblique;
 /*font-size:30px; */
 }
 p {
-  color:rgb(224, 162, 38);
+  color:#1c1100
 }
 legend, fieldset {
   color: #510321;
