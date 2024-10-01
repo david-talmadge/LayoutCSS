@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <title>David's Orange Chicken</title>
     <link href="../css/style.css" rel="stylesheet" type="text/css" />
+    <script src="../js/script.js"></script>
   </head>
   <body>
 
@@ -64,14 +65,14 @@
     
     <h3>Rate this recipe</h3>
     
-    <form action="">
+    <form action="process_form.php" onsubmit="return ValidateFirstName();">
       <fieldset>
         <legend>What skill level is this recipe?</legend>
-        <input type="radio" name="easy" id="easy">
+        <input type="radio" name="skill" id="easy">
         <label for="easy">Easy</label>
-        <input type="radio" name="intermediate" id="intermediate">
+        <input type="radio" name="skill" id="intermediate">
         <label for="intermediate">Intermediate</label>
-        <input type="radio" name="hard" id="hard">
+        <input type="radio" name="skill" id="hard">
         <label for="hard">Hard</label>
       </fieldset>
     </form>
