@@ -65,7 +65,7 @@
     
     <h3>Rate this recipe</h3>
     
-    <form action="process_form.php" onsubmit="return ValidateFirstName();">
+    <form action="process_form.php" onsubmit="return validate();" target="_self">
       <fieldset>
         <legend>What skill level is this recipe?</legend>
         <input type="radio" name="skill" id="easy">
@@ -74,8 +74,8 @@
         <label for="intermediate">Intermediate</label>
         <input type="radio" name="skill" id="hard">
         <label for="hard">Hard</label>
-        <input type="submit" value="Submit">
       </fieldset>
+      <input type="submit" value="Submit">
     </form>
 
       
