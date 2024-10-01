@@ -1,6 +1,48 @@
 body {
   background-image: url("../images/index.jpg");
   background-color: orange;
+  color:#caa151;
+  font-family: "Josefin Sans", sans-serif;
   margin: 2px;
   padding: 2px;
+}
+h1, h2, h3 {
+  font-family: "Berkshire Swash", sans-serif;
+  color:#caa151;
+  text-shadow: 3px 3px 3px #510321;
+  font-style:oblique;
+/*font-size:30px; */
+}
+p {
+  color:rgb(224, 162, 38);
+}
+legend, fieldset {
+  color: #510321;
+  /*color:rgb(8, 8, 8);*/
+  background-color: burlywood;
+  border: double #121212;
+
+}
+.rate {
+  color:rgb(134, 182, 224);
+}
+
+.container {
+  column-width: 200px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.wrapper > div {
+  flex: 1;
+}
+div {
+  border: double cornflowerblue;
+}
+
+
+.wow {
+  width: 100px;
 }
