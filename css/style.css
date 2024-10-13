@@ -10,7 +10,7 @@ h1 {
   font-family: "Pacifico", cursive;
   color:#ffdfad;
   text-shadow: 2px 2px 2px #361701;
-  font-style:oblique;
+  font-style:normal;
 }  
 h2, h3 {
   font-family: "Berkshire Swash", sans-serif;
@@ -31,6 +31,11 @@ legend, fieldset {
   background-color: burlywood;
   border: double #121212;
 
+}
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 .rate {
   color:rgb(134, 182, 224);
