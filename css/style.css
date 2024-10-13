@@ -14,7 +14,10 @@ h1, h2, h3 {
 /*font-size:30px; */
 }
 p {
-  color:#361701
+  color:#361701;
+}
+li {
+  color:#361701;
 }
 legend, fieldset {
   color: #361701;
