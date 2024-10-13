@@ -71,6 +71,7 @@ box4 {
 
 div {
   /*border: double cornflowerblue;*/
+  border-style: none;
 }
 
 
