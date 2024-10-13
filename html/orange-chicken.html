@@ -67,20 +67,17 @@
     <input type="text" placeholder="tablespoons"><label for="cups">=</label><input type="text" name="cups" id="cups" placeholder="cups">
 
     
-    <h3>Rate this recipe</h3>
+    <h3 class="rate">Rate this recipe</h3>
     
-    <form onsubmit="return validate();" target="_blank">
-      <fieldset>
-        <legend>What skill level is this recipe?</legend>
-        <input type="radio" name="skill" id="easy">
+    <fieldset>
+      <legend>What skill level is this recipe?</legend>
+        <input type="radio" name="easy" id="easy">
         <label for="easy">Easy</label>
-        <input type="radio" name="skill" id="intermediate">
+        <input type="radio" name="intermediate" id="intermediate">
         <label for="intermediate">Intermediate</label>
-        <input type="radio" name="skill" id="hard">
+        <input type="radio" name="hard" id="hard">
         <label for="hard">Hard</label>
-      </fieldset>
-      <input type="submit" value="Submit">
-    </form>
+    </fieldset>
 
       
     <h3>Directions</h3>
